@@ -1,0 +1,31 @@
+body{
+background-color: #f6f7f6;
+font-style: normal;
+}
+.LogoPrincipal{
+  width: 15%;
+  height: 150px;
+  float: left;
+  background-color: yellow;
+}
+.MenuNav{
+  width: 100%;
+  height: 150px;
+  background-color: transparent;
+}
+.ContenidoPrincipal{
+  width: 100%;
+  height:600px;
+margin-top: 50px;
+  background-color: transparent;
+}
+.informativoPrincipal{
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+hr {
+color: #f6f7f6;
+size: 10px;
+}
