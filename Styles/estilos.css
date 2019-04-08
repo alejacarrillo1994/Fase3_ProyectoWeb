@@ -2,11 +2,20 @@ body{
 background-color: #f6f7f6;
 font-style: normal;
 }
+hr {
+color: #f6f7f6;
+size: 10px;
+}
 .LogoPrincipal{
   width: 15%;
   height: 150px;
   float: left;
-  background-color: yellow;
+  background-color: transparent;
+}
+#logo{
+  width: 199.95px;
+  height: 150px;
+  margin-left:30px;
 }
 .MenuNav{
   width: 100%;
@@ -22,10 +31,17 @@ margin-top: 50px;
 .informativoPrincipal{
   width: 100%;
   height: 200px;
-  margin-top: 10px;
-  background-color: transparent;
+position: static;
+  background-color: #1a5d7c;
+  border-radius: 10px 10px 10px 10px;
 }
-hr {
-color: #f6f7f6;
-size: 10px;
+footer > p{
+  color: #f6f7f6;
+  text-align: center;
+  width: 50%;
+  height: 100px;
+  margin-left: 25%;
+  display: flex;
+   justify-content: center;
+   align-items: center;
 }
