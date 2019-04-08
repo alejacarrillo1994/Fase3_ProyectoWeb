@@ -11,7 +11,6 @@ hr {
 }
 
 tr>td {
-
   color: black;
 }
 
@@ -21,14 +20,15 @@ tr>td {
   height: 500px;
   position: static;
 }
-#ContenidoUno > li{
-color: black;
-margin-left: 20px;
+
+#ContenidoUno>li {
+  color: black;
+  margin-left: 20px;
 }
 
-#ContenidoUno > h1:hover{
+#ContenidoUno>h1:hover {
   cursor: pointer;
-  color:#d36b27;
+  color: #d36b27;
   -webkit-transition: .2s all linear;
   -moz-transition: .2s all linear;
   -o-transition: .2s all linear;
@@ -47,6 +47,7 @@ margin-left: 20px;
   height: 150px;
   float: left;
   background-color: transparent;
+  cursor: pointer;
 }
 
 #logo {
@@ -60,7 +61,6 @@ margin-left: 20px;
   height: 150px;
   background-color: transparent;
   border-bottom: 1px solid #e6e6e6;
-
 }
 
 .ContenidoPrincipal {

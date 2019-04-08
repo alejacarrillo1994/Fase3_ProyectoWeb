@@ -1,69 +1,79 @@
-
 ul li {
-background:#f6f7f6;
-list-style: none;
-height: 35px;
-float:right;
-padding:10px 5px;
+  background: #f6f7f6;
+  list-style: none;
+  height: 35px;
+  float: right;
+  padding: 10px 5px;
 }
+
 ul li a {
-width: 175px;
-height: 50px;
-line-height: 53px;
-border-bottom: 4px solid #636393;
-padding:0px;
-font-size:18px;
-font-family: sans-serif;
-text-align:center;
-text-decoration: none;
-display: block;
--webkit-transition: .2s all linear;
--moz-transition: .2s all linear;
--o-transition: .2s all linear;
-transition: .2s all linear;
+  width: 175px;
+  height: 50px;
+  line-height: 53px;
+  border-bottom: 4px solid #636393;
+  padding: 0px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  -webkit-transition: .2s all linear;
+  -moz-transition: .2s all linear;
+  -o-transition: .2s all linear;
+  transition: .2s all linear;
 }
+
 li:nth-child(1) a {
-border-color: #22464c;
-color: #22464c;
+  border-color: #22464c;
+  color: #22464c;
 }
+
 li:nth-child(2) a {
-border-color: #d36b27;
-color: #d36b27;
+  border-color: #d36b27;
+  color: #d36b27;
 }
+
 li:nth-child(3) a {
-border-color: #22464c;
-color: #22464c;
+  border-color: #22464c;
+  color: #22464c;
 }
+
 li:nth-child(4) a {
-border-color: #d36b27;
-color: #d36b27;
+  border-color: #d36b27;
+  color: #d36b27;
 }
+
 li:nth-child(5) a {
-border-color: #22464c;
-color: #22464c;
+  border-color: #22464c;
+  color: #22464c;
 }
+
 li:nth-child(1) a:hover {
-border-bottom: 35px solid #22464c;
-height: 9px;
-color: white;
+  border-bottom: 35px solid #22464c;
+  height: 9px;
+  color: white;
 }
+
 li:nth-child(2) a:hover {
-border-bottom: 35px solid #d36b27;
-height: 9px;
-color: white;
+  border-bottom: 35px solid #d36b27;
+  height: 9px;
+  color: white;
 }
+
 li:nth-child(3) a:hover {
-border-bottom: 35px solid #22464c;
-height: 9px;
-color: white;
+  border-bottom: 35px solid #22464c;
+  height: 9px;
+  color: white;
 }
+
 li:nth-child(4) a:hover {
-border-bottom: 35px solid #d36b27;
-height: 9px;
-color: white;
+  border-bottom: 35px solid #d36b27;
+  height: 9px;
+  color: white;
 }
+
 li:nth-child(5) a:hover {
-border-bottom: 35px solid #22464c;
-height: 9px;
-color: white;
+  border-bottom: 35px solid #22464c;
+  height: 9px;
+  color: white;
 }
