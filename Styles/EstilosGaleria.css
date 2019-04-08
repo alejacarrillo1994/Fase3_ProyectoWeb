@@ -1,9 +1,7 @@
 #galeria { /* este es el div que contiene la galería */
   background: transparent;
   border: 1px solid transparent;
-  height: 300px;
-  position: relative;
-  width: 600px;
+
   margin: 30px auto;
   overflow: visible;
 }

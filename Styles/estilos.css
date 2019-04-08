@@ -14,6 +14,10 @@ tr>td {
   color: black;
 }
 
+#galeria, li>img {
+  box-shadow: 15px 15px 25px gray;
+}
+
 #ContenidoUno {
   background-color: transparent;
   width: 100%;
