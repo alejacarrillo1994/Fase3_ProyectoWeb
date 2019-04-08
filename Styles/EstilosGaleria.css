@@ -1,0 +1,38 @@
+#galeria { /* este es el div que contiene la galería */
+  background: transparent;
+  border: 1px solid transparent;
+  height: 300px;
+  position: relative;
+  width: 600px;
+  margin: 30px auto;
+  overflow: visible;
+}
+#galeria ul { /* la lista */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#galeria ul li { /* cada item de la lista */
+  display: inline-table;
+  list-style: none;
+  padding: 10px;
+  vertical-align: middle;
+}
+#galeria ul li .pic { /* la imagen normal */
+  background-color: #000;
+  border: 2px solid #000;
+  left: 130px;
+  padding: 10px;
+  position: absolute;
+  top: 15px;
+  visibility:hidden;
+  -moz-box-shadow: 0 0 20px #ABC inset;
+  -webkit-box-shadow: 0 0 20px #ABC inset;
+  box-shadow: 0 0 20px #ABC inset;
+}
+#galeria ul li .mini:hover { /* efecto sobre las miniaturas */
+  cursor: pointer;
+}
+#galeria ul li:hover .pic { /* efecto sobre las imágenes */
+  visibility: visible;
+}

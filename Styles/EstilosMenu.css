@@ -23,48 +23,47 @@ display: block;
 transition: .2s all linear;
 }
 li:nth-child(1) a {
-border-color: #1a5d7c;
-color: #1a5d7c;
-
+border-color: #22464c;
+color: #22464c;
 }
 li:nth-child(2) a {
-border-color: #e69d34;
-color: #e69d34;
+border-color: #d36b27;
+color: #d36b27;
 }
 li:nth-child(3) a {
-border-color: #1a5d7c;
-color: #1a5d7c;
+border-color: #22464c;
+color: #22464c;
 }
 li:nth-child(4) a {
-border-color: #e69d34;
-color: #e69d34;
+border-color: #d36b27;
+color: #d36b27;
 }
 li:nth-child(5) a {
-border-color: #1a5d7c;
-color: #1a5d7c;
+border-color: #22464c;
+color: #22464c;
 }
 li:nth-child(1) a:hover {
-border-bottom: 35px solid #1a5d7c;
+border-bottom: 35px solid #22464c;
 height: 9px;
 color: white;
 }
 li:nth-child(2) a:hover {
-border-bottom: 35px solid #e69d34;
+border-bottom: 35px solid #d36b27;
 height: 9px;
 color: white;
 }
 li:nth-child(3) a:hover {
-border-bottom: 35px solid #1a5d7c;
+border-bottom: 35px solid #22464c;
 height: 9px;
 color: white;
 }
 li:nth-child(4) a:hover {
-border-bottom: 35px solid #e69d34;
+border-bottom: 35px solid #d36b27;
 height: 9px;
 color: white;
 }
 li:nth-child(5) a:hover {
-border-bottom: 35px solid #1a5d7c;
+border-bottom: 35px solid #22464c;
 height: 9px;
 color: white;
 }
