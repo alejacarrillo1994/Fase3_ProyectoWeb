@@ -23,6 +23,17 @@ tr>td {
   width: 100%;
   height: 500px;
   position: static;
+  margin-top: 70px;
+}
+
+#ContenidoDos {
+  background-color: transparent;
+  width: 100%;
+  height: 500px;
+  position: static;
+  margin-left: 50px;
+  padding: 30px;
+  border: 1px solid black;
 }
 
 #ContenidoUno>li {
@@ -99,4 +110,7 @@ footer>p {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
+
+/*estilos de github*/
