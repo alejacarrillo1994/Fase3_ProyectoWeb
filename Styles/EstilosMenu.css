@@ -22,6 +22,18 @@ ul li a {
   -o-transition: .2s all linear;
   transition: .2s all linear;
 }
+/*se oculta el subitem*/
+.MenuNav li > ul{
+display:none;
+position:absolute;
+background: #424242;
+padding: 0;
+z-index: 2;
+}
+/*muestra el subitem al momento de pasar el cursor por el item principal*/
+.MenuNav li:hover > ul{
+display:block;
+ }
 
 li:nth-child(1) a {
   border-color: #22464c;

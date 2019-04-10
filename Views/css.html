@@ -5,7 +5,7 @@
   <meta charset=utf-8>
   <link rel="stylesheet" type="text/css" href="../Styles/estilosIndex.css">
   <link rel="stylesheet" type="text/css" href="../Styles/estilosMenu.css">
-  <link rel="stylesheet" type="text/css" href="../Styles/estilosGaleria.css">
+  <link rel="stylesheet" type="text/css" href="../Styles/estilosCSS.css">
   <title>CSS</title>
 </head>
 
@@ -19,7 +19,12 @@
         <ul id="nav">
           <li class="index"><a href="../Views/Index.html">Tutoriales</a></li>
           <li class="html5"><a href="../Views/html5.html">HTML5</a></li>
-          <li class="css3"><a href="../Views/css.html">CSS3</a></li>
+          <li class="css3"><a href="../Views/css.html">CSS3</a>
+            <ul>
+              <li> <a href="../Views/ComoFuncionaCSS.html">CSS en HTML</a> </li><br>
+              <li> <a href="../Views/ComoFuncionaCSS.html">Propiedades</a> </li>
+            </ul>
+          </li>
           <li class="github"><a href="../Views/GitHub.html">Github</a></li>
           <li class="contacto"><a href="#">Contacto</a></li>
         </ul>
@@ -28,9 +33,93 @@
   </header>
 
   <section>
-    <article class="ContenidoPrincipal">
+    <article class="ContenidoCSS">
       <hr>
-      <h1>ACA IRA EL CONTENIDO DE CSS</h1>
+      <table>
+        <tr>
+          <td>
+            <div id="ContenidoCSSUno">
+              <img src="../Images/iconoCSS.png" alt="" width="300px" height="300px">
+              <h1>CSS3</h1><br><br>
+              <div class="ContenidoDidacticoCSS">
+                <a href="https://www.w3schools.com/css/">
+                  <img src="../Images/Actividades.png" alt="" width="60px" height="60px">
+                </a>
+                <h4>Actividades</h4>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div id="ContenidoCSSDos">
+              <h1>¿QUE ES?<br></h1>
+              <h4>es un lenguaje que se utiliza para diseñar la presentacion del contenido de una pagina web a los usuarios. <br>
+                el contenido de dicha pagina suele ser un archivo de texto estructurado utilziando el lenguaje de marcado <br>
+                ya conocido como HTML. Existen otros archivos de texto tales como SVG o XML.</h4>
+              <br>
+              <h1> SINTAXIS BASICA CSS</h1>
+              <h2>Reglas:</h2>
+              <table>
+                <tr>
+                  <td>
+                    Selectores de etiqueta: selecciona todos los elementos de la pagina donde la etiqueta HTML coincide con el valor del selector.<br>
+                    se muestra el siguiente ejemplo
+                  </td>
+                  <td>
+                    <img src="../screenshots/SelectorEtiqueta.png" alt="" width="350px" height="150px">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Selectores de clase: aplica estilos a un solo elemento de la pagina,
+                    en donde solamente se pone el atributo class sobre el elemento al cual aplica directamente la regla css,
+                    para poder aplicarle el estilo css se debe referenciar con (.) y el nombre del valor.
+                  </td>
+                  <td>
+                    <img src="../screenshots/SelectorClase.png" alt="" width="350px" height="150px">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    selectores de ID: permite seleccionar un elemento de la pagina a traves del valor de su atributo id,
+                    este selector no permite en dos elementos diferentes de una misma pagina. Para poder aplicar el estilo css
+                    se debe referenciar con (#) y el nombre del valor.
+                  </td>
+                  <td>
+                    <img src="../screenshots/SelectorID.png" alt="" width="350px" height="150px">
+                  </td>
+                </tr>
+              </table>
+              <h2>Agrupamiento:<br></h2>
+              <table>
+                <tr>
+                  <td>
+                    permite agrupar los selectores y declaraciones en una sola linea,
+                    esto evita que se repita tanto codigo innecesario de un atributo con declaraciones identicas.
+                  </td>
+                  <td>
+                    <img src="../screenshots/Agrupamiento.png" alt="" width="350px" height="150px">
+                  </td>
+                </tr>
+              </table>
+              <h2>Herencia:<br></h2>
+              <table>
+                <tr>
+                  <td>
+                    permite heredar los valores de propiedades asignados al selector exterior. es decir todos los selectores
+                    que esten anidados dentro de selectores.
+                  </td>
+                  <td>
+                    <img src="../screenshots/herencia.png" alt="" width="350px" height="150px">
+                  </td>
+                </tr>
+              </table>
+            </div>
+            </div>
+          </td>
+        </tr>
+
+      </table>
+
     </article>
   </section>
   <hr>
