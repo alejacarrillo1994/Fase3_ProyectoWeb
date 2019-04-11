@@ -5,9 +5,10 @@
   <meta charset=utf-8>
   <link rel="stylesheet" type="text/css" href="../Styles/estilosIndex.css">
   <link rel="stylesheet" type="text/css" href="../Styles/estilosMenu.css">
-  <link rel="stylesheet" type="text/css" href="../Styles/estilosGaleria.css">
   <link rel="stylesheet" type="text/css" href="../Styles/estilosCSS.css">
-  <title>Como funciona CSS</title>
+  <link rel="stylesheet" type="text/css" href="../Styles/estilosEstructuraHTML.css">
+
+  <title>Propiedades CSS</title>
 </head>
 
 <body>
@@ -19,7 +20,11 @@
       <div class="MenuNav">
         <ul id="nav">
           <li class="index"><a href="../Views/Index.html">Tutoriales</a></li>
-          <li class="html5"><a href="../Views/html5.html">HTML5</a></li>
+          <li class="html5"><a href="../Views/html5.html">HTML5</a>
+            <ul>
+              <li> <a href="../Views/EstructuraHTML.html">Estructura</a> </li>
+            </ul>
+          </li>
           <li class="css3"><a href="../Views/css.html">CSS3</a>
             <ul>
               <li> <a href="../Views/PropiedadesCSS.html">Propiedades</a> </li>
@@ -33,14 +38,24 @@
   </header>
 
   <section>
-    <article class="ContenidoGitHub">
+    <article class="ContenidoEstructuraHTML">
       <hr>
-      <table>
-        <tr>
-          <td>asi funciona css en html</td>
-        </tr>
-      </table>
+      <h1>Estructura HTML</h1>
+      <div class="ContenidoEstructuraHTMLUno">
+        <table>
+          <tr>
+            <td style="text-align: center">
+            <h1>a nivel de codigo</h1>
+              <img src="../screenshots/EstructuraHTML.png" alt="">
+            </td>
 
+            <td>
+              <h1>a nivel de visual de usuario</h1>
+              <img src="../screenshots/estructuraPagina.png" alt="" width="508px" height="626px">
+            </td>
+          </tr>
+        </table>
+      </div>
     </article>
   </section>
   <hr>

@@ -5,8 +5,9 @@
   <meta charset=utf-8>
   <link rel="stylesheet" type="text/css" href="../Styles/estilosIndex.css">
   <link rel="stylesheet" type="text/css" href="../Styles/estilosMenu.css">
-  <link rel="stylesheet" type="text/css" href="../Styles/estilosGaleria.css">
   <link rel="stylesheet" type="text/css" href="../Styles/estilosCSS.css">
+  <link rel="stylesheet" type="text/css" href="../Styles/PropiedadesCSS.css">
+
   <title>Propiedades CSS</title>
 </head>
 
@@ -19,10 +20,14 @@
       <div class="MenuNav">
         <ul id="nav">
           <li class="index"><a href="../Views/Index.html">Tutoriales</a></li>
-          <li class="html5"><a href="../Views/html5.html">HTML5</a></li>
+          <li class="html5"><a href="../Views/html5.html">HTML5</a>
+            <ul>
+              <li> <a href="../Views/EstructuraHTML.html">Estructura</a> </li>
+            </ul>
+          </li>
           <li class="css3"><a href="../Views/css.html">CSS3</a>
             <ul>
-              <li> <a href="../Views/ComoFuncionaCSS.html">CSS en HTML</a> </li>
+              <li> <a href="../Views/PropiedadesCSS.html">Propiedades</a> </li>
             </ul>
           </li>
           <li class="github"><a href="../Views/GitHub.html">Github</a></li>
@@ -33,13 +38,101 @@
   </header>
 
   <section>
-    <article class="ContenidoGitHub">
+    <article class="ContenidoCSS">
       <hr>
-      <table>
-        <tr>
-          <td>Propiedades css</td>
-        </tr>
-      </table>
+      <h1>PROPIEDADES PRINCIPALES CSS</h1>
+      <div class="ContenidoPropiedadesCSS">
+        <table border:1px solid>
+          <tr>
+            <td style="text-align: center">
+              <h1> Propiedad</h1>
+            </td>
+            <td style="text-align: center">
+              <h1> descripcion</h1>
+            </td>
+            <td style="text-align: center">
+              <h1> sintaxis</h1>
+            </td>
+          </tr>
+          <tr>
+            <td>Font-family</td>
+            <td>Define la familia tipográfica. Es conveniente poner una lista de dos o tres tipografías separadas por coma, porque si el usuario no tiene instalada la tipografía que nosostros elegimos, el navegador opta por mostrar la siguiente que
+              debería ser una similar, si tampoco la tiene instalada, mostrará la tipografía por defecto.</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/pr_font_font-family.asp">verificar...</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Font-size:</td>
+            <td>Define el tamaño de la fuente y el valor se puede escribir en pixels o en ems. En este momento se recomienda usar ems. Los dos son valores relativos, el pixel es un valor relativo a la resolución de la pantalla, pero el em es relativo
+              al tamaño de la fuente definida por el usuario. Si el usuario no cambió la configuración, el valor por defecto de los textos en todos los navegadores es de 16px. Entonces 1em = 16px.</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/pr_font_font-size.asp">Verificar...</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Color:</td>
+            <td>Define el color de la tipografía. Los colores se pueden escribir de 3 formas distinas: con sistema hexadecimal, por ejemplo: #FF0000 (es rojo). Con los nombres de los colores (más limitado) por ejemplo: black, red, green. O usando
+              RGB, esta paleta permite agregar el canal alfa para hacer transparencias.</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/pr_text_color.asp">Verificar...</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Width:</td>
+            <td>Define el ancho de un elemento, el valor se puede escribir en pixels, ems o porcentaje.</td>
+            <td><a href="https://www.w3schools.com/cssref/pr_dim_width.asp">Verificar...</a></td>
+          </tr>
+          <tr>
+            <td>Max-width o min-width: </td>
+            <td>Definen el ancho máximo o mínimo de un elemento. Muy importante en sitios adaptables</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/pr_dim_max-width.asp">Verificar...</a>
+              <br>
+              <a href="https://www.w3schools.com/cssref/pr_dim_min-width.asp">Verificar...</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Max-height o min-height: </td>
+            <td>Definen el alto máximo o mínimo de un elemento. Muy importante en sitios adaptables</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/pr_dim_max-height.asp">Verificar...</a>
+              <br>
+              <a href="https://www.w3schools.com/cssref/pr_dim_min-height.asp">Verificar...</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Padding:</td>
+            <td>Es la distancia desde el borde de un elemento hasta su contenido.</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/pr_padding.asp">Verificar...</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Margin:</td>
+            <td>Es la distancia entre un elemento y otro (desde el borde de un elemento hacia afuera)</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/pr_margin.asp">Verificar...</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Border:</td>
+            <td>Define el borde de un elemento, su color, su estilo y grosor.</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/pr_border.asp">Verificar...</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Background:</td>
+            <td>Define los fondos de un objeto. El fondo puede ser una imagen o un color. El color puede ser pleno o degradado. La imagen se puede repetir formando una trama (es lo que ocurre por defecto) o se puede especificar que no repita y que se
+              coloque en determinada posición.</td>
+            <td>
+              <a href="https://www.w3schools.com/cssref/css3_pr_background.asp">Verificar...</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
 
     </article>
   </section>

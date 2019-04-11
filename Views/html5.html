@@ -6,6 +6,8 @@
   <link rel="stylesheet" type="text/css" href="../Styles/estilosIndex.css">
   <link rel="stylesheet" type="text/css" href="../Styles/estilosMenu.css">
   <link rel="stylesheet" type="text/css" href="../Styles/estilosGaleria.css">
+  <link rel="stylesheet" type="text/css" href="../Styles/estilosHTML.css">
+  <link rel="stylesheet" type="text/css" href="../Styles/EstructuraHTML.css">
   <title>HTML5</title>
 </head>
 
@@ -18,11 +20,14 @@
       <div class="MenuNav">
         <ul id="nav">
           <li class="index"><a href="../Views/Index.html">Tutoriales</a></li>
-          <li class="html5"><a href="../Views/html5.html">HTML5</a></li>
+          <li class="html5"><a href="../Views/html5.html">HTML5</a>
+            <ul>
+              <li> <a href="../Views/EstructuraHTML.html">Estructura</a> </li>
+            </ul>
+          </li>
           <li class="css3"><a href="../Views/css.html">CSS3</a>
             <ul>
-              <li> <a href="../Views/ComoFuncionaCSS.html">CSS en HTML</a> </li><br>
-              <li> <a href="../Views/ComoFuncionaCSS.html">Propiedades</a> </li>
+              <li> <a href="../Views/PropiedadesCSS.html">Propiedades</a> </li>
             </ul>
           </li>
           <li class="github"><a href="../Views/GitHub.html">Github</a></li>
@@ -33,9 +38,51 @@
   </header>
 
   <section>
-    <article class="ContenidoPrincipal">
+    <article class="ContenidoHTML">
       <hr>
-      <h1>ACA IRA EL CONTENIDO DE HTML5</h1>
+      <table>
+        <tr>
+          <td>
+            <div id="ContenidoHTMLUno">
+              <img src="../Images/iconoHTML.png" alt="" width="300px" height="300px">
+              <h1>HTML5</h1>
+            </div>
+          </td>
+          <td>
+            <div id="ContenidoHTMLDos">
+              <h1>¿QUE ES?</h1> <br>
+              HTML5 es un lenguaje markup (Hyper Text Markup Language) es la quinta version mas importante del lenguaje basico de html. <br>
+              html5 especifica dos variantes de sintaxis para html: una clasica, html: (text/html),conocida como html5. <br>
+              adicionalmente HTML5 establece nuevos elementos y atributos que reflejan el uso tipico de los sitios web modernos, algunos de ellos son similares
+              a las etiquetas div y span pero tienen un significado semantico.<br> <br>
+
+              <h1>ETIQUETAS HTML5</h1>
+              Las etiquetas son la herramienta fundamental para que los navegadores puedan interpretar el codigo y permitirnos ver imagenes, texto, parrafo y estructuras,
+              estas nuevas etiquetas nos ahorran el uso de otros productos que se usaban apra complementar y hacer cosaas que con el simple html no se podia hacer.<br>
+
+              las etiquetas mas importantes de las nuevas etiquetas creadas son las siguientes:
+              <br>
+              <br>
+              <li>Article: sirve para definir un articulo, un comentario de un usuario o una publicacion independiente dentro del sitio</li>
+              <br>
+              <li>Header, Footer: estas etiquetas individuales ahorran tener que insertar ids para cada uno, como solia ser antes, <br>
+                ahora se puede insertar headers y footers para cada seccion, en lugar de tener que hacerlo unicamente en general </li>
+              <br>
+              <li>Nav: esta etiqueta es un contenedor para enlaces de navegacion, donde proveen formas de acceder a las secciones del sitio web.</li>
+              <br>
+              <li>Section: esta etiqueta es una de las mas importantes de las novedades que trae HTML5, ya que se puede definir <br>
+                todo tipo de seccion dentro de un documento.</li>
+              <br>
+              <li>Audio y video: permite acceder de forma mas simple a contenidos multimedia que puede ser reproducido por casi todo tipo de dispositivos</li>
+              <br>
+              <li>Canvas: permite introducion un lienzo dentro de n documento, para poder dibujar graficos por vectores donde sera necesario <br>
+                el uso de javascript
+              </li>
+            </div>
+          </td>
+        </tr>
+      </table>
+
     </article>
   </section>
   <hr>
