@@ -1,0 +1,21 @@
+.ContenidoPrincipalTutoriales {
+  width: 100%;
+  height: 900px;
+  margin-top: 50px;
+  background-color: transparent;
+}
+.ContenidoTutorialesUno>h1{
+  text-align: center;
+}
+
+.ContenidoTutorialesUno > table {
+  width: 1200px;
+  height: 150px;
+  border-bottom: 1px solid transparent;
+list-style-position: inside;
+  padding: 50px;
+ margin: auto;
+ text-align: left;
+ border-spacing: 10px;
+ background-color: transparent;
+}
